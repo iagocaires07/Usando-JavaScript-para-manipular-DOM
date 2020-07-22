@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Modelo de Exercício</title>
+</head>
+<body>
+    <header>Listar Atividades</header>
+    <section>
+        <form id="cadastrar">
+            <input type="text" id="nome" placeholder="Atividade">
+            <input type="text" id="data" placeholder="Data"> 
+            <input type="text" id="horaInicio" placeholder="Hora de inicio"> 
+            <input type="text" id="horaFim" placeholder="Hora do fim">     
+        </form>
+        <div id="btEnviar">
+            <button type="button" onclick="addAtividade()">Salvar</button>
+            <button type="button" onclick="renderAtividade()">Mostrar Lista</button>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <p>&copy;Iago Caires</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

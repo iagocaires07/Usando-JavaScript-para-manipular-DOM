@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap');
+
+body{
+    background: rgb(129, 168, 211);
+    font: 700 24px Roboto, sans-serif;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+} 
+
+#cadastrar{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#cadastrar input{
+    width: 380px;
+    border-width: 0px 0px 2px;
+    padding: 10px;
+    margin: 5px;
+    font: 700 14px Roboto, sans-serif;
+}
+
+#btEnviar{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+#btEnviar button{
+    width: 100px;
+    height: 45px;
+    font: 700 14px Roboto, sans-serif;
+    background: rgb(198, 212, 216);
+    border-radius: 8px;
+    color: black;
+    margin: 8px;
+}
+
+#listaDeAtividades{
+    color: black;
+    font: 700 18px Roboto, sans-serif;
+}
+
+#listaDeAtividades ul li{
+    justify-content: space-between;
+}
