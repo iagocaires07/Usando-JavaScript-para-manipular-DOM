@@ -4,24 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Modelo de Exercício</title>
+    <title>Criando Lista de Atividades</title>
 </head>
 <body>
-    <header>Listar Atividades</header>
-    <section>
-        <form id="cadastrar">
-            <input type="text" id="nome" placeholder="Atividade">
-            <input type="text" id="data" placeholder="Data"> 
-            <input type="text" id="horaInicio" placeholder="Hora de inicio"> 
-            <input type="text" id="horaFim" placeholder="Hora do fim">     
-        </form>
-        <div id="btEnviar">
-            <button type="button" onclick="addAtividade()">Salvar</button>
-            <button type="button" onclick="renderAtividade()">Mostrar Lista</button>
+    <header>
+        <p>Crie aqui seus Todos</p>
+        <div id="buttons">
+            <button id="createTodo" onclick="createTodo()">Add Todo</button>
+            <button id="listTodo" onclick="renderTodo()" >List Todo</button>
         </div>
-        
-    </section>
-    
+    </header>
+    <div class="container">  
+    </div>
     <footer>
         <p>&copy;Iago Caires</p>
     </footer>
