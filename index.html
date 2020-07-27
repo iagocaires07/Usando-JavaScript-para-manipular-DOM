@@ -2,16 +2,17 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="max-age=0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Criando Lista de Atividades</title>
+    <title>Criando Lista de Afazeres</title>
 </head>
 <body>
     <header>
-        <p>Crie aqui seus Todos</p>
+        <p onclick="reloadPage()">Todo List</p>
         <div id="buttons">
             <button id="createTodo" onclick="createTodo()">Add Todo</button>
-            <button id="listTodo" onclick="renderTodo()" >List Todo</button>
+            <button id="listTodo" onclick="renderTodo()">List Todo</button>
         </div>
     </header>
     <div class="container">  

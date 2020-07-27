@@ -24,8 +24,11 @@ header{
 }
 
 header p{
-    border: 2px solid black;
+    width: 135px;
+    border: 3px solid black;
+    text-align: center;
     border-radius: 8px;
+    cursor: pointer;
     margin: 8px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
     font: 700 24px Roboto, sans-serif;
@@ -33,13 +36,13 @@ header p{
 
 header button{
     width: 120px;
-    height: 30px;
+    height: 35px;
     border: 2px solid black;
-    margin: 20px;
+    margin: 7px;
     cursor: pointer;
     border-radius: 8px;
     background: #999;
-    font: 700 14px Roboto, sans-serif;
+    font: 700 18px Roboto, sans-serif;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
 }
 
@@ -67,7 +70,7 @@ section{
     padding: 15px;
     width: 500px;
     height: 20vh;
-    position: static;
+    position: absolute;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
 }
@@ -101,14 +104,41 @@ section{
     margin: 10px;
 }
 
-#exibe-todo {
-    width: 280px;
+#exibe-todo{
+    width: auto;
     height: auto;
     margin: auto;
     display: inline;
     background: white;
 }
 
+#exibe-todo ul{
+    display: grid
+}
+
 #exibe-todo li{
-    margin: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center
+}
+    
+#exibe-todo ul li img{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#exibe-todo ul li img:hover{
+    zoom: 120%;
+}
+
+#exibe-todo ul li input{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+#exibe-todo ul li input:checked, strike{
+    opacity: 0.5;
 }
